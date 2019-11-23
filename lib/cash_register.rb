@@ -13,7 +13,7 @@ attr_accessor :items, :total, :discount, :last_transaction
 
   def add_item(title, price, quantity = 1)
       q = 0
-    while quantity += 1
+    quantity.times.do
       @items << title
       q += 1
     end
