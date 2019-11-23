@@ -37,4 +37,3 @@ attr_accessor :items, :total, :discount, :last_transaction
 self.total -= @last_transaction
   end
 
-end
