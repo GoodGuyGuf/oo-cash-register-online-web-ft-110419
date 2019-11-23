@@ -1,6 +1,5 @@
 require 'pry'
 #learn spec/cash_register_spec.rb --fail-fast
-
 class CashRegister
 
 attr_accessor :items, :total, :discount, :last_transaction
