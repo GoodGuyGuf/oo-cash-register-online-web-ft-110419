@@ -15,7 +15,6 @@ attr_accessor :items, :total, :discount, :last_transaction
     quantity.times.do
       @items << title
     end
-    @items << title
   self.total += price*quantity
   @last_transaction = price * quantity
   end
